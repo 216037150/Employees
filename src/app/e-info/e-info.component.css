@@ -1,0 +1,39 @@
+.button-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.info-container {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.list-group-info {
+  list-style-type: none;
+  padding: 0;
+}
+
+.list-group-info li {
+  margin: 5px 0;
+  padding: 8px;
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}

@@ -3,6 +3,13 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "java",
+      "request": "launch",
+      "mainClass": "java",
+      "projectName": "Employees_dc02b6dc"
+    },
+    {
       "name": "ng serve",
       "type": "chrome",
       "request": "launch",
