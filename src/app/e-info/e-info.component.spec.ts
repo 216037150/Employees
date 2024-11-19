@@ -21,3 +21,5 @@ describe('EInfoComponent', () => {
     expect(component).toBeTruthy();
   });
 });
+
+

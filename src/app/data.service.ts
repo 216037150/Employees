@@ -21,6 +21,4 @@ export class DataService {
     return this.infor3
   }
 
-  constructor(){}
-
 }
