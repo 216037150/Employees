@@ -3,8 +3,8 @@
   "version": "0.0.1",
   "scripts": {
     "ng": "ng",
-    "start": "node server/server.js"
-,
+    "start": "node server/server.js",
+    "starts": "nodemon dist/employees/browser/main-U7EFNWMQ.js",
     "start:dev": "ng serve --configuration development",
     "build": "ng build",
     "test": "ng test",
