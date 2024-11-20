@@ -1,12 +1,13 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { EInfoComponent } from "./e-info/e-info.component";
+import { EInfoComponent } from './e-info/e-info.component';
 
 @Component({
-    selector: 'app-root',
-    imports: [RouterOutlet, EInfoComponent],
-    templateUrl: './app.component.html',
-    styleUrl: './app.component.css'
+  selector: 'app-root',
+  standalone: true,
+  imports: [RouterOutlet, EInfoComponent],
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
   title = 'Employees';

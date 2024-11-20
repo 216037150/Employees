@@ -1,12 +1,13 @@
 import { Component, OnInit } from '@angular/core';
-import { DataService } from '../data.service';
 import { CommonModule } from '@angular/common';
+import { DataService } from '../data.service';
 
 @Component({
-    selector: 'app-e-info',
-    imports: [CommonModule],
-    templateUrl: './e-info.component.html',
-    styleUrls: ['./e-info.component.css']
+  selector: 'app-e-info',
+  standalone: true,
+  imports: [CommonModule],
+  templateUrl: './e-info.component.html',
+  styleUrls: ['./e-info.component.css'],
 })
 export class EInfoComponent implements OnInit {
   inforreceived1: string[] = [];
@@ -19,9 +20,7 @@ export class EInfoComponent implements OnInit {
 
   constructor(private dservice: DataService) {}
 
-  ngOnInit(): void {
-    
-  }
+  ngOnInit(): void {}
 
   getInforFromService1() {
     this.inforreceived1 = this.dservice.getInfor1();
