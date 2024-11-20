@@ -3,11 +3,10 @@ import { DataService } from '../data.service';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'app-e-info',
-  standalone: true,
-  imports: [CommonModule],
-  templateUrl: './e-info.component.html',
-  styleUrls: ['./e-info.component.css']
+    selector: 'app-e-info',
+    imports: [CommonModule],
+    templateUrl: './e-info.component.html',
+    styleUrls: ['./e-info.component.css']
 })
 export class EInfoComponent implements OnInit {
   inforreceived1: string[] = [];
