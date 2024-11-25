@@ -1,15 +1,15 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { DataService } from '../data.service';
+import { DataService } from '../../data.service';
 
 @Component({
-  selector: 'app-e-info',
+  selector: 'employee',
   standalone: true,
   imports: [CommonModule],
-  templateUrl: './e-info.component.html',
-  styleUrls: ['./e-info.component.css'],
+  templateUrl: './employee.component.html',
+  styleUrls: ['./employee.component.css'],
 })
-export class EInfoComponent implements OnInit {
+export class EmployeeComponent implements OnInit {
   inforreceived1: string[] = [];
   inforreceived2: string[] = [];
   inforreceived3: string[] = [];
